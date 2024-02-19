@@ -58,7 +58,7 @@ let movie_name = enter_name.value
 enter_name.value=""
 fetch_Movies(movie_name).then((response)=>{
   load_movies()
-    if(response.Response==="False") {
+    if(response?.Response==="False") {
         alert('Movie not found!!')
         return response;
     }
