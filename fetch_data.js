@@ -2,7 +2,7 @@
 const fetch_Movies =async (name)=>{
     try{
 console.log(" Name is "+name)
-const url = `http://www.omdbapi.com/?t=${name}&apikey=a4aada90`;
+const url = `https://www.omdbapi.com/?t=${name}&apikey=a4aada90`;
 
 console.log(url);
     const movie= await fetch(url)
