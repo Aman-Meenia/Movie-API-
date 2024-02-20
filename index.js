@@ -62,11 +62,11 @@ fetch_Movies(movie_name).then((response)=>{
         alert('Movie not found!!')
         return response;
     }
-    console.log(response)
+    // console.log(response)
 
     let title = response.Title;
     title=title.trim();
-    console.log('title '+title)
+    // console.log('title '+title)
 
     //  check already present
 
